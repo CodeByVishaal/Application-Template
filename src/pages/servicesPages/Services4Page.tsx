@@ -19,7 +19,6 @@ const Services4Page = () => {
       <LayoutV1>
         <Breadcrumb title="Our Services" breadCrumb="services" />
         <ServicesV5 sectionClass="bg-gray" />
-        <TestimonialV2 />
         <PriceV1 sectionClass="bg-gray" />
         <DarkClass />
         <ThemeDark />
