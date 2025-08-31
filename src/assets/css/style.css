@@ -113,6 +113,22 @@ Sidebar heading:  22px 'Barlow', sans-serif
 	--bg-gradient-secondary: linear-gradient(90deg, rgba(237, 245, 255, 1) 0%, rgba(204, 223, 247, 1) 100%);
 }
 
+/* Add this to your existing CSS */
+.pt-120 {
+    padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+    .pt-120 {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pt-120 {
+        padding-top: 80px;
+    }
+}
 
 
 /* ============================================================== 

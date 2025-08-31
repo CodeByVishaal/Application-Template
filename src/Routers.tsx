@@ -91,7 +91,7 @@ const Routers = () => {
     <>
       <Routes>
         <Route path="/" element={<Home9 />}></Route>
-        <Route path="/home-2" element={<Home2 />}></Route>
+        {/* <Route path="/home-2" element={<Home2 />}></Route>
         <Route path="/home-3" element={<Home3 />}></Route>
         <Route path="/home-4" element={<Home4 />}></Route>
         <Route path="/home-5" element={<Home5 />}></Route>
@@ -102,7 +102,7 @@ const Routers = () => {
         <Route path="/home-10" element={<Home10 />}></Route>
         <Route path="/home-11" element={<Home11 />}></Route>
         <Route path="/home-12" element={<Home12 />}></Route>
-        <Route path="/home-13" element={<Home13 />}></Route>
+        <Route path="/home-13" element={<Home13 />}></Route> */}
 
         {/* Home Light  */}
         <Route path="/home-1-light" element={<Home1Light />}></Route>

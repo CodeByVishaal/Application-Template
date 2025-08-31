@@ -10,24 +10,24 @@ import ThemeDark from "../../components/switcher/ThemeDark";
 import DarkClass from "../../components/classes/DarkClass";
 
 const AboutUsPage = () => {
-    return (
-        <>
-            <Helmet>
-                <title>Dixor - About Us</title>
-            </Helmet>
+  return (
+    <>
+      <Helmet>
+        <title>Pixel Arts</title>
+      </Helmet>
 
-            <LayoutV1>
-                <Breadcrumb title='About Company' breadCrumb='About' />
-                <AboutV6 sectionClass='bg-gray default-padding' />
-                <FunFactV1 sectionClass='default-padding-bottom bg-gray' />
-                <PartnerV2 />
-                <TeamV1 sectionClass='bg-gray' hasTitle={true} />
-                <TestimonialV3 />
-                <DarkClass />
-                <ThemeDark />
-            </LayoutV1>
-        </>
-    );
+      <LayoutV1>
+        <Breadcrumb title="About Company" breadCrumb="About" />
+        <AboutV6 sectionClass="bg-gray default-padding" />
+        <FunFactV1 sectionClass="default-padding-bottom bg-gray" />
+        <PartnerV2 />
+        <TeamV1 sectionClass="bg-gray" hasTitle={true} />
+        <TestimonialV3 />
+        <DarkClass />
+        <ThemeDark />
+      </LayoutV1>
+    </>
+  );
 };
 
 export default AboutUsPage;
