@@ -1,3 +1,4 @@
+import ContactForm from "../form/ContactForm";
 import SocialShareV2 from "../social/SocialShareV2";
 
 interface DataType {
@@ -35,8 +36,8 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                     <li>
                       <div className="info">
                         <h4>Official Email</h4>
-                        <a href="mailto:info@digital.com.com">
-                          info@digital.com
+                        <a href="mailto:pixelartswebsite@gmail.com">
+                          pixelartswebsite@gmail.com
                         </a>
                       </div>
                     </li>
@@ -52,11 +53,9 @@ const ContactV1 = ({ sectionClass }: DataType) => {
               </div>
               <div className="col-tact-stye-one col-lg-7 offset-lg-1">
                 <div className="contact-form-style-one">
-                  <h4 className="sub-title">Want VFX?</h4>
-                  <h2 style={{ marginTop: "10%" }} className="title">
-                    Let us Know!!
-                  </h2>
-                  <img src="/assets/img/pixelart-logo.png"></img>
+                  <h4 className="sub-title">Have Questions?</h4>
+                  <h2 className="title">Send us a Massage</h2>
+                  <ContactForm />
                 </div>
               </div>
             </div>

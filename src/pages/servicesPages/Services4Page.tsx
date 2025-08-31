@@ -10,24 +10,22 @@ import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 import ThemeDark from "../../components/switcher/ThemeDark";
 
 const Services4Page = () => {
-    return (
-        <>
-            <Helmet>
-                <title>Dixor - Services 4</title>
-            </Helmet>
+  return (
+    <>
+      <Helmet>
+        <title>Pixer Arts</title>
+      </Helmet>
 
-            <LayoutV1>
-                <Breadcrumb title='Our Services' breadCrumb='services-4' />
-                <ServicesV5 sectionClass='bg-gray' />
-                <FunFactV1 sectionClass='default-padding' />
-                <ClientsV1 sectionClass='bg-gray' />
-                <TestimonialV2 />
-                <PriceV1 sectionClass='bg-gray' />
-                <DarkClass />
-                <ThemeDark />
-            </LayoutV1>
-        </>
-    );
+      <LayoutV1>
+        <Breadcrumb title="Our Services" breadCrumb="services" />
+        <ServicesV5 sectionClass="bg-gray" />
+        <TestimonialV2 />
+        <PriceV1 sectionClass="bg-gray" />
+        <DarkClass />
+        <ThemeDark />
+      </LayoutV1>
+    </>
+  );
 };
 
 export default Services4Page;

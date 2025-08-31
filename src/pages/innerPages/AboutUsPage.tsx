@@ -8,6 +8,7 @@ import TeamV1 from "../../components/team/TeamV1";
 import TestimonialV3 from "../../components/testimonial/TestimonialV3";
 import ThemeDark from "../../components/switcher/ThemeDark";
 import DarkClass from "../../components/classes/DarkClass";
+import ClientsV1 from "../../components/clients/ClientsV1";
 
 const AboutUsPage = () => {
   return (
@@ -19,8 +20,7 @@ const AboutUsPage = () => {
       <LayoutV1>
         <Breadcrumb title="About Company" breadCrumb="About" />
         <AboutV6 sectionClass="bg-gray default-padding" />
-        <FunFactV1 sectionClass="default-padding-bottom bg-gray" />
-        <PartnerV2 />
+        <ClientsV1 sectionClass="bg-gray" />
         <TestimonialV3 />
         <DarkClass />
         <ThemeDark />

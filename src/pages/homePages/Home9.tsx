@@ -17,7 +17,7 @@ const Home9 = () => {
   return (
     <>
       <Helmet>
-        <title>Dixor - Home 9</title>
+        <title>Pixel Arts</title>
       </Helmet>
 
       <div className="smooth-scroll-container">

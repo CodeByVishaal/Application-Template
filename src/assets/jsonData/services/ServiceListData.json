@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "serviceName": "Visual Magic",
+        "serviceName": "Rotoscope",
         "count": "01"
     },
     {
         "id": 2,
-        "serviceName": "Cinematic Worlds",
+        "serviceName": "Matchmove",
         "count": "02"
     },
     {
         "id": 3,
-        "serviceName": "Creative Illusions",
+        "serviceName": "Compositing",
         "count": "03"
     }
 ]

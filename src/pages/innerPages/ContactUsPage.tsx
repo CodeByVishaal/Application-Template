@@ -7,21 +7,21 @@ import ContactMap from "../../components/map/ContactMap";
 import ThemeDark from "../../components/switcher/ThemeDark";
 
 const ContactUsPage = () => {
-    return (
-        <>
-            <Helmet>
-                <title>Dixor - Contact Us</title>
-            </Helmet>
+  return (
+    <>
+      <Helmet>
+        <title>Pixer Arts - VFX</title>
+      </Helmet>
 
-            <LayoutV1>
-                <Breadcrumb title='Get In Touch' breadCrumb='contact-us' />
-                <ContactV1 />
-                <ContactMap />
-                <DarkClass />
-                <ThemeDark />
-            </LayoutV1>
-        </>
-    );
+      <LayoutV1>
+        <Breadcrumb title="Get In Touch" breadCrumb="contact-us" />
+        <ContactV1 />
+        <ContactMap />
+        <DarkClass />
+        <ThemeDark />
+      </LayoutV1>
+    </>
+  );
 };
 
 export default ContactUsPage;

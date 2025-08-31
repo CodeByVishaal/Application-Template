@@ -142,7 +142,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
           </Link>
         </li>
         <li className="">
-          <Link to="/services-4" className="">
+          <Link to="/services" className="">
             Services
           </Link>
           {/* <ul className="dropdown-menu">

@@ -37,7 +37,9 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                 <div className="footer-contact">
                   <ul>
                     <li>
-                      <a href="mailto:someone@example.com">info@dixor.com</a>
+                      <a href="mailto:pixelartswebsite@gmail.com">
+                        pixelartswebsite@gmail.com
+                      </a>
                     </li>
                     <li>
                       <a href="tel:+4733378901">+47 333 78 901</a>

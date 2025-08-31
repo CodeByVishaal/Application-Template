@@ -105,7 +105,7 @@ const Routers = () => {
         <Route path="/home-13" element={<Home13 />}></Route> */}
 
         {/* Home Light  */}
-        <Route path="/home-1-light" element={<Home1Light />}></Route>
+        {/* <Route path="/home-1-light" element={<Home1Light />}></Route>
         <Route path="/home-2-light" element={<Home2Light />}></Route>
         <Route path="/home-3-light" element={<Home3Light />}></Route>
         <Route path="/home-4-light" element={<Home4Light />}></Route>
@@ -117,23 +117,24 @@ const Routers = () => {
         <Route path="/home-10-light" element={<Home10Light />}></Route>
         <Route path="/home-11-light" element={<Home11Light />}></Route>
         <Route path="/home-12-light" element={<Home12Light />}></Route>
-        <Route path="/home-13-light" element={<Home13Light />}></Route>
+        <Route path="/home-13-light" element={<Home13Light />}></Route> */}
 
         {/* Inner Pages */}
         <Route path="/about-us" element={<AboutUsPage />}></Route>
-        <Route path="/about-2" element={<About2Page />}></Route>
+        <Route path="/project" element={<ProjectPage />}></Route>
+        {/* <Route path="/about-2" element={<About2Page />}></Route>
         <Route path="/team" element={<TeamPage />}></Route>
         <Route path="/team-2" element={<Team2Page />}></Route>
         <Route path="/team-details/:id" element={<TeamDetailsPage />}></Route>
-        <Route path="/project" element={<ProjectPage />}></Route>
+        
         <Route path="/project-2" element={<Project2Page />}></Route>
-        <Route path="/project-3" element={<Project3Page />}></Route>
+        <Route path="/project-3" element={<Project3Page />}></Route> */}
         <Route
           path="/project-details/:id"
           element={<ProjectDetailsPage />}
         ></Route>
         <Route path="/contact-us" element={<ContactUsPage />}></Route>
-        <Route path="/faq" element={<FaqPage />}></Route>
+        {/* <Route path="/faq" element={<FaqPage />}></Route> */}
 
         {/* Inner Light  */}
         <Route path="/about-us-light" element={<AboutUsLightPage />}></Route>
@@ -158,10 +159,10 @@ const Routers = () => {
         <Route path="/faq-light" element={<FaqLightPage />}></Route>
 
         {/* Services Page */}
-        <Route path="/services" element={<ServicesPage />}></Route>
-        <Route path="/services-2" element={<Services2Page />}></Route>
+        <Route path="/services" element={<Services4Page />}></Route>
+        {/* <Route path="/services-2" element={<Services2Page />}></Route>
         <Route path="/services-3" element={<Services3Page />}></Route>
-        <Route path="/services-4" element={<Services4Page />}></Route>
+        <Route path="/services-4" element={<Services4Page />}></Route> */}
         <Route
           path="/service-details/:id"
           element={<ServiceDetailsPage />}

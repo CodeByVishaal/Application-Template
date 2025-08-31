@@ -1,5 +1,5 @@
 import thumb2 from "/assets/img/thumb/2.jpg";
-import arrowIcon from "/assets/img/icon/arrow.png";
+import logo from "/assets/img/pixelart-logo.png";
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
 import ServiceList from "../services/ServiceList";
 import { Link } from "react-router-dom";
@@ -34,7 +34,7 @@ const AboutV6 = ({ sectionClass }: DataType) => {
           <div className="row">
             <div className="col-xl-5 col-lg-5">
               <div className="thumb-style-four">
-                <img src={thumb2} alt="Image Not Found" />
+                <img src={logo} alt="Image Not Found" />
               </div>
             </div>
             <div className="col-xl-6 offset-xl-1 col-lg-7">
@@ -44,9 +44,6 @@ const AboutV6 = ({ sectionClass }: DataType) => {
               >
                 <div className="info">
                   <div className="d-flex">
-                    <Link to="/about-us">
-                      <img src={arrowIcon} alt="Image Not Found" />
-                    </Link>
                     <h2 className="title text">
                       Leading VFX & Post-Production Studio
                     </h2>
