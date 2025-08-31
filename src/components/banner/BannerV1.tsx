@@ -7,58 +7,36 @@ import Animate from "../animation/Animate.js";
 const BannerV1 = () => {
   return (
     <>
-      <div
-        className="banner-style-one-area bg-cover"
-        style={{ backgroundImage: `url("/assets/img/shape/3.jpg")` }}
-      >
-        <div
-          className="light-banner-active bg-gray bg-cover"
-          style={{ backgroundImage: "url(/assets/img/shape/8.jpg)" }}
-        />
+      <div className="banner-style-one-area bg-cover">
+        <video
+          className="background-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            top: 0,
+            left: 0,
+            zIndex: 0,
+          }}
+        >
+          <source src="/assets/video/LogoAnimation.m4v" type="video/mp4" />
+        </video>
+
         <div className="container">
           <div className="row">
             <div className="col-xl-7">
               <div className="banner-style-one-heading">
                 <div className="banner-title">
-                  <h2 className="title-left split-text">
-                    <SplitText
-                      delay={150}
-                      animationFrom={{
-                        opacity: 0,
-                        transform: "translate3d(0,50px,0)",
-                      }}
-                      animationTo={{
-                        opacity: 1,
-                        transform: "translate3d(0,0,0)",
-                      }}
-                      easing="easeOutCubic"
-                      threshold={0.2}
-                      rootMargin="-50px"
-                    >
-                      Designing
-                    </SplitText>
-                  </h2>
+                  <h2 className="title-left split-text"></h2>
 
-                  <h2 className="title-right split-text">
-                    <SplitText
-                      delay={150}
-                      animationFrom={{
-                        opacity: 0,
-                        transform: "translate3d(0,50px,0)",
-                      }}
-                      animationTo={{
-                        opacity: 1,
-                        transform: "translate3d(0,0,0)",
-                      }}
-                      easing="easeOutCubic"
-                      threshold={0.2}
-                      rootMargin="-50px"
-                    >
-                      Creative
-                    </SplitText>
-                  </h2>
+                  <h2 className="title-right split-text"></h2>
                 </div>
-                <Animate className="animate__animated animate__fadeInRight">
+                {/* <Animate className="animate__animated animate__fadeInRight">
                   <div className="thumb">
                     <img
                       className="regular-img"
@@ -71,7 +49,7 @@ const BannerV1 = () => {
                       alt="Image Not Found"
                     />
                   </div>
-                </Animate>
+                </Animate> */}
               </div>
             </div>
             {/* <div className="col-xl-4 offset-xl-1">

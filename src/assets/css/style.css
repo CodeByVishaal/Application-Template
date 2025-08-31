@@ -113,6 +113,24 @@ Sidebar heading:  22px 'Barlow', sans-serif
 	--bg-gradient-secondary: linear-gradient(90deg, rgba(237, 245, 255, 1) 0%, rgba(204, 223, 247, 1) 100%);
 }
 
+.banner-style-one-area {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
 /* Add this to your existing CSS */
 .pt-120 {
     padding-top: 120px;
