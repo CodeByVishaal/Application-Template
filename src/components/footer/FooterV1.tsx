@@ -46,7 +46,7 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                     <Link to="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/about-us">Project</Link>
+                    <Link to="/project">Projects</Link>
                   </li>
                   <li>
                     <Link to="/about-us">ShowrReel</Link>
@@ -54,14 +54,9 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                   <li>
                     <Link to="/contact-us">Contact</Link>
                   </li>
-                  <li>
-                    <Link to="/faq">FAQS</Link>
-                  </li>
+
                   <li>
                     <Link to="/services">Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/about-2">Term & Conditions</Link>
                   </li>
                 </ul>
                 <div className="footer-contact">

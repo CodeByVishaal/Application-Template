@@ -2485,6 +2485,10 @@ button i {
 	z-index: -1;
 }
 
+.text-purple{
+	color: var(--color-primary);
+}
+
 .text-light .video-btn i::after {
 	background: var(--white) repeat scroll 0 0;
 }

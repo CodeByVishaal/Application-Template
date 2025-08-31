@@ -1,3 +1,4 @@
+import CountUp from "react-countup";
 import Animate from "../animation/Animate";
 import petta from "/assets/img/gallery/petta.jpg";
 
@@ -115,8 +116,12 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                 <div className="award-items">
                   <Animate className="animate__animated animate__fadeInLeft">
                     <div className="award-item">
-                      <i className="fab fa-behance" />
-                      <h4>Behance Awards </h4>
+                      <div className="fun-fact">
+                        <div className="h2 timer text-purple">
+                          <CountUp end={19} enableScrollSpy />+
+                        </div>
+                      </div>
+                      <h4>Movies </h4>
                     </div>
                   </Animate>
 
@@ -125,8 +130,12 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                     delay="100ms"
                   >
                     <div className="award-item">
-                      <i className="fas fa-layer-group" />
-                      <h4>Design Awards</h4>
+                      <div className="fun-fact">
+                        <div className="h2 timer text-purple">
+                          <CountUp end={10} enableScrollSpy />+
+                        </div>
+                      </div>
+                      <h4>Web Series</h4>
                     </div>
                   </Animate>
 
@@ -135,8 +144,12 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                     delay="200ms"
                   >
                     <div className="award-item">
-                      <i className="fab fa-laravel" />
-                      <h4>Coding Awards</h4>
+                      <div className="fun-fact">
+                        <div className="h2 timer text-purple">
+                          <CountUp end={100} enableScrollSpy />+
+                        </div>
+                      </div>
+                      <h4>Hours of Dedication</h4>
                     </div>
                   </Animate>
                 </div>
