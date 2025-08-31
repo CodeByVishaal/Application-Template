@@ -1,17 +1,14 @@
 import { Helmet } from "react-helmet-async";
 import AboutV1 from "../../components/about/AboutV1";
 import BannerV1 from "../../components/banner/BannerV1";
-import BlogV2 from "../../components/blog/BlogV2";
-import BrandV1 from "../../components/brand/BrandV1";
 import FooterV3 from "../../components/footer/FooterV3";
 import HeaderV1 from "../../components/header/HeaderV1";
 import MultiSection from "../../components/multi/MultiSection";
-import ProjectV2 from "../../components/project/ProjectV2";
-import ServicesV1 from "../../components/services/ServicesV1";
-import TeamV3 from "../../components/team/TeamV3";
-import TestimonialV1 from "../../components/testimonial/TestimonialV1";
+
 import DarkClass from "../../components/classes/DarkClass";
+import ServicesV1 from "../../components/services/ServicesV1";
 import ThemeDark from "../../components/switcher/ThemeDark";
+import TestimonialV1 from "../../components/testimonial/TestimonialV1";
 
 const Home9 = () => {
   return (

@@ -1,5 +1,5 @@
-import SocialShareV3 from "../social/SocialShareV3";
 import { Link } from "react-router-dom";
+import SocialShareV3 from "../social/SocialShareV3";
 import HeaderNewsLetter from "./HeaderNewsLetter";
 import logoLight from "/assets/img/logo-light.png";
 
@@ -9,26 +9,10 @@ interface SidebarInfoProps {
   closeInfoBar?: () => void;
 }
 
-const SidebarInfo = ({
-  openInfoBar,
-  isInfoOpen,
-  closeInfoBar,
-}: SidebarInfoProps) => {
+const SidebarInfo = ({ isInfoOpen, closeInfoBar }: SidebarInfoProps) => {
   return (
     <>
       <div className="attr-right">
-        {/* <div className="attr-nav flex">
-                    <ul>
-                        <li className="side-menu">
-                            <Link to="#" onClick={openInfoBar}>
-                                <span className="bar-1" />
-                                <span className="bar-2" />
-                                <span className="bar-3" />
-                            </Link>
-                        </li>
-                    </ul>
-                </div> */}
-
         <div className={`side ${isInfoOpen ? "on" : ""}`}>
           <Link to="#" className="close-side" onClick={closeInfoBar}>
             <i className="fa fa-times"></i>

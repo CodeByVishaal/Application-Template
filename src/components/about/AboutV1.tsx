@@ -1,19 +1,12 @@
-import team10 from "/assets/img/team/10.jpg";
-import team11 from "/assets/img/team/11.jpg";
-import team12 from "/assets/img/team/12.jpg";
-import arrowIcon from "/assets/img/icon/arrow.png";
-import arrowThemeIcon from "/assets/img/icon/arrow-theme.png";
-import banner3 from "/assets/img/banner/3.jpg";
-import { Link } from "react-router-dom";
-import SkillProgress from "../process/SkillProgress";
-import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
-import ModalVideo from "react-modal-video";
 import { useState } from "react";
-import TextScrollAnimation from "../animation/TextScrollAnimation";
 import CountUp from "react-countup";
+import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import useThumbParallax from "../../hooks/useThumbParallax";
-import ImageCompare from "../ImageCompare";
+import TextScrollAnimation from "../animation/TextScrollAnimation";
+import arrowThemeIcon from "/assets/img/icon/arrow-theme.png";
+import arrowIcon from "/assets/img/icon/arrow.png";
 
 interface DataType {
   lightMode?: boolean;

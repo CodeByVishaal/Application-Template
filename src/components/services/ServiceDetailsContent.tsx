@@ -3,7 +3,6 @@ import portfolio45 from "/assets/img/portfolio/45.jpg";
 import portfolio46 from "/assets/img/portfolio/46.jpg";
 import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json";
 import { Link } from "react-router-dom";
-import ImageCompare from "../ImageCompare";
 
 interface DataType {
   title?: string;

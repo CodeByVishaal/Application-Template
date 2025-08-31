@@ -1,10 +1,9 @@
-import thumb2 from "/assets/img/thumb/2.jpg";
-import logo from "/assets/img/pixelart-logo.png";
-import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
-import ServiceList from "../services/ServiceList";
-import { Link } from "react-router-dom";
-import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
+import useScrollAnimation from "../../hooks/useScrollAnimation";
+import ServiceList from "../services/ServiceList";
+import logo from "/assets/img/pixelart-logo.png";
 
 interface DataType {
   sectionClass?: string;

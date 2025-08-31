@@ -1,18 +1,13 @@
-import team10 from "/assets/img/team/10.jpg";
-import team11 from "/assets/img/team/11.jpg";
-import team12 from "/assets/img/team/12.jpg";
-import team13 from "/assets/img/team/13.jpg";
+import CountUp from "react-countup";
+import { Link } from "react-router-dom";
+import SplitText from "../animation/SplitText.jsx";
+import hhvm from "/assets/img/logo/HHVM.png";
 import petta from "/assets/img/logo/Petta.png";
 import sk2 from "/assets/img/logo/SK2.png";
-import sarkar from "/assets/img/logo/Sarkar.png";
-import ayali from "/assets/img/logo/ayali.png";
-import hhvm from "/assets/img/logo/HHVM.png";
-import tharmaprabhu from "/assets/img/logo/Tharmaprabhu.png";
 import SadhurangaVettai from "/assets/img/logo/SadhurangaVettai.png";
-import { Link } from "react-router-dom";
-import CountUp from "react-countup";
-import handleSmoothScroll from "../utilities/handleSmoothScroll";
-import SplitText from "../animation/SplitText.jsx";
+import sarkar from "/assets/img/logo/Sarkar.png";
+import tharmaprabhu from "/assets/img/logo/Tharmaprabhu.png";
+import ayali from "/assets/img/logo/ayali.png";
 
 interface DataType {
   sectionClass?: string;

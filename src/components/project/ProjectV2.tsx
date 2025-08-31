@@ -1,6 +1,3 @@
-import SplitText from "../animation/SplitText.jsx";
-import PortfolioV1 from "../portfolio/PortfolioV1";
-
 const ProjectV2 = () => {
   return (
     <>

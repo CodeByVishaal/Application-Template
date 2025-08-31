@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import logoLight from "/assets/img/logo-light.png";
-import MainMenuV2 from "./MainMenuV2";
+import useSubMenuToggleV2 from "../../hooks/useSubMenuToggleV2";
 import SocialShareV3 from "../social/SocialShareV3";
 import HeaderNewsLetter from "./HeaderNewsLetter";
-import useSubMenuToggleV2 from "../../hooks/useSubMenuToggleV2";
+import MainMenuV2 from "./MainMenuV2";
+import logoLight from "/assets/img/logo-light.png";
 
 interface DataType {
   openMenu?: () => void;
@@ -12,26 +12,12 @@ interface DataType {
   closeInfoBar?: () => void;
 }
 
-const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
+const SidebarMenu = ({ isInfoOpen, closeInfoBar }: DataType) => {
   const toggleSubMenu2 = useSubMenuToggleV2();
 
   return (
     <>
       <div className="attr-right">
-        {/* <div className="attr-nav flex">
-                    <ul>
-                        <li className="side-menu">
-                            <Link to="#" onClick={openInfoBar}>
-                                <strong>MENU </strong>
-                                <div className="line">
-                                    <span className="bar-1" />
-                                    <span className="bar-2" />
-                                    <span className="bar-3" />
-                                </div>
-                            </Link>
-                        </li>
-                    </ul>
-                </div> */}
         <div className="col-lg-2">
           <div className={`side ${isInfoOpen ? "on" : ""}`}>
             <Link to="#" className="close-side" onClick={closeInfoBar}>

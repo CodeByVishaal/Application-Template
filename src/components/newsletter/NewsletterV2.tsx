@@ -1,4 +1,3 @@
-import arrowRightTwo from "/assets/img/icon/arrow-right-two.png";
 import { toast } from "react-toastify";
 
 interface FormEventHandler {
@@ -7,6 +6,7 @@ interface FormEventHandler {
 }
 
 const NewsletterV2 = () => {
+  //@ts-ignore
   const handleForm: FormEventHandler = (event) => {
     event.preventDefault();
     const form = event.target as HTMLFormElement;

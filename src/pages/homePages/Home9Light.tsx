@@ -1,16 +1,15 @@
-import HeaderV1 from "../../components/header/HeaderV1";
-import BannerV1 from "../../components/banner/BannerV1";
-import BrandV1 from "../../components/brand/BrandV1";
-import AboutV1 from "../../components/about/AboutV1";
-import ProjectV2Light from "../../components/project/ProjectV2Light";
-import TestimonialV1 from "../../components/testimonial/TestimonialV1";
-import TeamV3 from "../../components/team/TeamV3";
-import BlogV2 from "../../components/blog/BlogV2";
-import FooterV3 from "../../components/footer/FooterV3";
 import { Helmet } from "react-helmet-async";
-import ThemeLight from "../../components/switcher/ThemeLight";
+import AboutV1 from "../../components/about/AboutV1";
+import BannerV1 from "../../components/banner/BannerV1";
+import BlogV2 from "../../components/blog/BlogV2";
+import BrandV1 from "../../components/brand/BrandV1";
+import FooterV3 from "../../components/footer/FooterV3";
+import HeaderV1 from "../../components/header/HeaderV1";
 import MultiSection from "../../components/multi/MultiSection";
+import ProjectV2Light from "../../components/project/ProjectV2Light";
 import ServicesV1 from "../../components/services/ServicesV1";
+import ThemeLight from "../../components/switcher/ThemeLight";
+import TestimonialV1 from "../../components/testimonial/TestimonialV1";
 
 const Home9Light = () => {
   return (
