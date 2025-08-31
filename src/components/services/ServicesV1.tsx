@@ -51,7 +51,7 @@ const ServicesV1 = ({ hasTitle, sectionClass }: DataType) => {
                         threshold={0.2}
                         rootMargin="-50px"
                       >
-                        Turn Information Into Actionable Insights
+                        Transform Frames Into Flawless Visuals
                       </SplitText>
                     </h2>
                   </div>
@@ -66,7 +66,7 @@ const ServicesV1 = ({ hasTitle, sectionClass }: DataType) => {
             <div className="row">
               {ServicesV1Data.slice(0, 4).map((service) => (
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 single-item"
+                  className="col-xl-3 col-lg-6 col-md-6 single-item project-style-one-area default-padding blurry-shape-left"
                   key={service.id}
                   onMouseEnter={() => handleMouseEnter(service.id)}
                   onMouseLeave={handleMouseLeave}

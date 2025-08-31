@@ -25,7 +25,6 @@ const Home9 = () => {
         <BannerV1 />
         <AboutV1 />
         <ServicesV1 sectionClass="default-padding bg-gray" hasTitle={true} />
-        <ProjectV2 />
 
         <TestimonialV1 />
 

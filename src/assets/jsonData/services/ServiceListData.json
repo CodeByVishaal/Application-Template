@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "serviceName": "Social Media",
+        "serviceName": "Visual Magic",
         "count": "01"
     },
     {
         "id": 2,
-        "serviceName": "Content Writing",
+        "serviceName": "Cinematic Worlds",
         "count": "02"
     },
     {
         "id": 3,
-        "serviceName": "Video Production",
+        "serviceName": "Creative Illusions",
         "count": "03"
     }
 ]
