@@ -13,6 +13,7 @@ import TextScrollAnimation from "../animation/TextScrollAnimation";
 import CountUp from "react-countup";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import useThumbParallax from "../../hooks/useThumbParallax";
+import ImageCompare from "../ImageCompare";
 
 interface DataType {
   lightMode?: boolean;
@@ -61,30 +62,15 @@ const AboutV1 = ({ lightMode }: DataType) => {
                 className="about-style-one-info text-scroll-animation"
                 ref={containerRef}
               >
-                <div className="video-card mb-40">
-                  <div className="thumb">
-                    <img src={team10} alt="Image Not Found" />
-                    <img src={team11} alt="Image Not Found" />
-                    <img src={team12} alt="Image Not Found" />
-                  </div>
-                  <Link
-                    to="#"
-                    className="popup-youtube"
-                    onClick={() => setOpen(true)}
-                  >
-                    <i className="fas fa-play" />
-                    Watch Us
-                  </Link>
-                </div>
                 <p className="text">
-                  Give lady of they such they sure it. Me contained explained my
-                  education. Vulgar as hearts by garret. Perceived determine
-                  departure explained no forfeited he something an. Contrasted
-                  dissimilar get joy you instrument out reasonably. Again keeps
-                  at no meant stuff. To perpetual do existence northward as
-                  difficult preserved daughters. Continued at up to zealously
-                  necessary breakfast. Surrounded sir motionless she end
-                  literature.
+                  At Pixel Arts, we transform imagination into breathtaking
+                  visuals. From high-end CGI and realistic compositing to
+                  dynamic motion graphics, we specialize in creating visual
+                  effects that push boundaries and elevate stories. Whether it’s
+                  film, advertising, or digital media, our team combines
+                  artistry with technology to deliver visuals that leave a
+                  lasting impact. With Pixel Arts, your vision doesn’t just come
+                  to life — it transcends.
                 </p>
                 <div className="d-flex">
                   {lightMode ? (
@@ -99,7 +85,7 @@ const AboutV1 = ({ lightMode }: DataType) => {
 
                   <TextScrollAnimation triggerClassName="text">
                     <h2 className="title text">
-                      Best creative & modern digital agency
+                      Pixels in Motion, Stories in Action
                     </h2>
                   </TextScrollAnimation>
                 </div>
@@ -109,6 +95,7 @@ const AboutV1 = ({ lightMode }: DataType) => {
           <div className="row"></div>
         </div>
       </div>
+
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
