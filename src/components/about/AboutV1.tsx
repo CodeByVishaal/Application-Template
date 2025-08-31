@@ -84,9 +84,7 @@ const AboutV1 = ({ lightMode }: DataType) => {
                   )}
 
                   <TextScrollAnimation triggerClassName="text">
-                    <h2 className="title text">
-                      Pixels in Motion, Stories in Action
-                    </h2>
+                    <h2 className="title text">The Magic Behind the Screen</h2>
                   </TextScrollAnimation>
                 </div>
               </div>

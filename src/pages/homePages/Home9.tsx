@@ -29,7 +29,7 @@ const Home9 = () => {
         <TestimonialV1 />
 
         <MultiSection />
-        <BlogV2 sectionClass="bg-gray" />
+
         <FooterV3 />
         <DarkClass />
         <ThemeDark />
