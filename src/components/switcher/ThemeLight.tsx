@@ -1,20 +1,20 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const ThemeLight = () => {
-    const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
-    const handleToggle = () => {
-        setIsActive(prev => !prev);
-        document.body.classList.toggle('bg-dark');
-    };
+  const handleToggle = () => {
+    setIsActive((prev) => !prev);
+    document.body.classList.toggle("bg-dark");
+  };
 
-    return (
-        <>
-            <div className="radio-btn-light" onClick={handleToggle}>
+  return (
+    <>
+      {/* <div className="radio-btn-light" onClick={handleToggle}>
                 <div className={`radio-inner-light ${isActive ? 'active' : ''}`}></div>
-            </div>
-        </>
-    );
+            </div> */}
+    </>
+  );
 };
 
 export default ThemeLight;
