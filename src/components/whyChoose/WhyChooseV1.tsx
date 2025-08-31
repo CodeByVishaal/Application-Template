@@ -21,8 +21,8 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                 <div className="pl-80 pl-md-0 pl-xs-0 pt-120">
                   {" "}
                   {/* Added pt-120 class */}
-                  <h4 className="sub-title">Why Dixor</h4>
-                  <h2 className="title">Unlock Revenue Growth</h2>
+                  <h4 className="sub-title">Why Choose Pixel Arts?</h4>
+                  <h2 className="title">Why Not?</h2>
                   <div
                     className="faq-style-one accordion mt-30"
                     id="faqAccordion"
@@ -37,7 +37,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Business Innovation
+                          Precision Rotoscoping & Flawless Paint-Prep
                         </button>
                       </h2>
                       <div
@@ -48,9 +48,9 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Bennings appetite disposed me an at subjects an. To
-                            no indulgence diminution so discovered mr
-                            apartments. Are off under folly death wrote cause.
+                            Frame-by-frame detailing to ensure clean mattes and
+                            seamless object removals that blend naturally into
+                            any scene.
                           </p>
                         </div>
                       </div>
@@ -65,7 +65,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Search Engine Optimization
+                          Hollywood-Grade Compositing
                         </button>
                       </h2>
                       <div
@@ -76,9 +76,9 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Cennings appetite disposed me an at subjects an. To
-                            no indulgence diminution so discovered mr
-                            apartments. Are off under folly death wrote cause.
+                            From subtle fixes to complex integrations, our
+                            compositing delivers cinematic visuals that feel
+                            real and immersive.
                           </p>
                         </div>
                       </div>
@@ -93,7 +93,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Thinking Differently
+                          Fast Turnaround, Zero Compromise
                         </button>
                       </h2>
                       <div
@@ -104,9 +104,8 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Tennings appetite disposed me an at subjects an. To
-                            no indulgence diminution so discovered mr
-                            apartments. Are off under folly death wrote cause.
+                            Quick delivery timelines without sacrificing
+                            accuracy, quality, or creative integrity.
                           </p>
                         </div>
                       </div>
